@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.title {
+  color: blue;
+}
+
+.input {
+  border-color: blue;
+  width: 300px;
+  margin-right: 5px;
+}
+
+.output {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.container {
+  margin-left: 30px;
+}
