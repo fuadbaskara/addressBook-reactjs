@@ -158,7 +158,7 @@ class Contacts extends Component {
   render() {
     return (
       <div>
-        <h1 class="title">Address Book</h1>
+        <h1 className="title">Address Book</h1>
         <div className="container1">
           <div className="container2">
             <div className="">
@@ -169,7 +169,7 @@ class Contacts extends Component {
                   type="text"
                   onChange={this.handleChangeName}
                   value={this.state.inputName}
-                  placeholder="Insert name of the contact here"
+                  placeholder="Insert name here.."
                 />
               </div>
             </div>
@@ -177,11 +177,11 @@ class Contacts extends Component {
               <label className="">Phone Number</label>
               <div className="">
                 <input
-                  className=""
+                  className="phone"
                   type="text"
                   onChange={this.handleChangePhone}
                   value={this.state.inputPhone}
-                  placeholder="Insert name of the contact here"
+                  placeholder="Insert phone number here.."
                 />
               </div>
             </div>
@@ -189,11 +189,11 @@ class Contacts extends Component {
               <label className="">Address</label>
               <div className="">
                 <input
-                  className="name"
+                  className="address"
                   type="text"
                   onChange={this.handleChangeAddress}
                   value={this.state.inputAddress}
-                  placeholder="Insert name of the contact here"
+                  placeholder="Insert address here.."
                 />
               </div>
             </div>
@@ -201,11 +201,11 @@ class Contacts extends Component {
               <label className="">Post Code</label>
               <div className="">
                 <input
-                  className="name"
+                  className="post"
                   type="text"
                   onChange={this.handleChangePost}
                   value={this.state.inputPost}
-                  placeholder="Insert name of the contact here"
+                  placeholder="Insert post code here.."
                 />
               </div>
             </div>

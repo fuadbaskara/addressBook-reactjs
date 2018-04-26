@@ -2,8 +2,8 @@ import React from "react";
 
 function Edit(props) {
   return (
-    <div>
-      <div className="">
+    <div className="editContact">
+      <div>
         <label className="">Contact Name</label>
         <div className="">
           <input
