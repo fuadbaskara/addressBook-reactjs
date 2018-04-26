@@ -22,4 +22,14 @@ body {
 
 .container {
   margin-left: 30px;
+  margin-right: 10px;
+}
+
+.container1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.container2 {
+  margin-right: 30px;
 }
